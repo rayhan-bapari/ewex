@@ -130,7 +130,7 @@ return [
     |
     */
 
-    'views' => false,
+    'views' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -161,9 +161,7 @@ return [
     */
 
     'features' => [
-        Features::passkeys([
-            'confirmPassword' => true,
-        ]),
+
     ],
 
 ];
